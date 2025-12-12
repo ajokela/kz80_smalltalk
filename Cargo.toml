@@ -1,0 +1,16 @@
+[package]
+name = "kz80_smalltalk"
+version = "0.1.0"
+edition = "2021"
+description = "Tiny Smalltalk to Z80 compiler for RetroShield hardware"
+license = "BSD-3-Clause"
+authors = ["Alex Jokela"]
+repository = "https://github.com/ajokela/kz80_smalltalk"
+keywords = ["smalltalk", "z80", "compiler", "retro", "embedded"]
+categories = ["compilers", "development-tools"]
+
+[dependencies]
+
+[[bin]]
+name = "kz80_smalltalk"
+path = "src/main.rs"
